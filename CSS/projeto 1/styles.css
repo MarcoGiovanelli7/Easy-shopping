@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+div {
+    height:200px;
+    width:200px;
+    background: #ffa600;
+}
+@media screen and (max-width:900px) and (orientation: landscape) {
+    div {
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+}
