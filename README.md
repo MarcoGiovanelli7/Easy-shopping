@@ -2,3 +2,4 @@
 <br>
 <br>
 <h2>Projeto que aprendi no <a href="https://rodolfomori.com.br/devclub">devclub</a></h2>
+<img src="https://raw.githubusercontent.com/MarcoGiovanelli7/Easy-shopping/70a80bf1d5ce0649aca400dcfdd1ea1985ba84f0/CSS/projeto%202/projeto%20easy.jpg">
