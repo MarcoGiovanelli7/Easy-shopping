@@ -1,4 +1,7 @@
 <h1>Easy Shopping</h1>
+<h2>tecnologias usadas</h2>
+<p>.html</p>
+<p>.css</p>
 <br>
 <br>
 <h2>Projeto que aprendi no <a href="https://rodolfomori.com.br/devclub">devclub</a></h2>
