@@ -1,0 +1,18 @@
+* {
+    background-color: #313131;
+}
+h1 {
+    color: #ffae00ee;
+    background-color: #111111;
+    font-weight: bold;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(255, 196, 0);
+
+}
+button {
+    color: #ffffff;
+    background-color: #50A44E;
+}
