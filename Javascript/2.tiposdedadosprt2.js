@@ -6,3 +6,13 @@ const myString = `minha idade é ${myAge},
 eu tenho um carro ${myCar},eu tenho uma linda esposa que se chama ${mywife}  `
 
 console.log(myString)
+/* --- tipos de dados ---
+1. String ->textos  
+2. Numbers -> números
+*/
+const number1 = 10/2
+const fakeNumber = '10/2'
+
+console.log(number1) 
+console.log(fakeNumber)
+
