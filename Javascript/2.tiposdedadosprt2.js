@@ -9,6 +9,10 @@ console.log(myString)
 /* --- tipos de dados ---
 1. String ->textos  
 2. Numbers -> números
+3. boolean -> boleano verdadeiro ou falso
+4.object -> objetos   
+
+
 */
 const number1 = 10/2
 const fakeNumber = '10/2'
