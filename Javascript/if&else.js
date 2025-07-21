@@ -7,13 +7,13 @@
    <menor que 
    ==igual que
    */
-  const notadoaluno = 10
-  const notadecorte = 5
+  const senhadousuario = 123456
+  const senhadigitada = 123456
 
-  if (notadoaluno > notadecorte) {
+  if (senhadousuario == senhadigitada) {
     //o quie sera executado,se if for verdadeiro
-    console.log('Parabéns, você foi aprovado!')
+    console.log('login realizado com sucesso!')
   } else {
        //se o if for falso,ele entra aqui
-       console.log('Infelizmente você foi reprovado!')
+       console.log('senha incorreta!')
   }
