@@ -14,4 +14,7 @@ const Marco = {
 
     }   
 }
-console.log(Marco.address.city) // Acessando a propriedade 'street' do objeto 'address'
+
+
+Marco.name = "Giovanelli"
+console.log(Marco)
