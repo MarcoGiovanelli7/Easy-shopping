@@ -5,6 +5,13 @@ const address = "minha rua,numero 7"
 const Marco = {
     name: "Marco",
     age: 55,
-    address: "minha rua,numero 7"   
+    address: {
+        street: "minha rua",
+        number: "7",
+        city: "Rio de Janeiro",
+        state: "RJ",
+        country: "Brasil"
+
+    }   
 }
-console.log(Marco)
+console.log(Marco.address.city) // Acessando a propriedade 'street' do objeto 'address'
