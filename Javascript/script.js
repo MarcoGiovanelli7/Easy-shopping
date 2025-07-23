@@ -1,7 +1,10 @@
 console.log("olá,agora estou por aqui");
 
-const  input = document.getElementById("main-input")
+const input = document.getElementById("main-input")
 console.log(input)
 
-const elements = document.querySelector("#main-input")
-console.log(elements)
+const element = document.querySelector("img")
+
+element.src="./Brownie-Cremoso.jpg"
+
+console.log(element.src)
