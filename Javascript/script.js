@@ -1,10 +1,9 @@
-console.log("olá,agora estou por aqui");
 
-const input = document.getElementById("main-input")
-console.log(input)
+const input = document.querySelector('#main-input')
+const select = document.querySelector('select')
+const button = document.querySelector('.main-button')
 
-const element = document.querySelector("img")
+select.addEventListener("change", function(){   
+console.log("troquei de valor")
+})
 
-element.src="./Brownie-Cremoso.jpg"
-
-console.log(element.src)
