@@ -5,14 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
+    <style>
+        body {
+            background-color: #fffffd;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #062af7;
+        }
+
+        .paragraph-js {
+            color: #1306ca;
+            font-size: 16px;
+        }
+
+        #main-input {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #c6c7c7;
+        }
+
+        .main-button {
+            padding: 10px 20px;
+            background-color: #f5e506;
+            color: rgb(0, 0, 0);
+            border: none;
+            cursor: pointer;
+        }
+
+        .main-button:hover {
+            background-color: #b30000;
+        }
+
+        p {
+            visibility: visible;
+        }
+    </style>
 </head>
 
-
-    <h1>JavaScript</h1>
 <body>
+    <h1>JavaScript</h1>
+
     <input id="main-input" placeholder="Digite aqui">
-    
-    <select>
+
+    <label for="main-select">Escolha uma opção:</label>
+    <select id="main-select">
         <option>HTML</option>
         <option>CSS</option>
         <option>React</option>
@@ -20,45 +59,8 @@
     </select>
 
     <button class="main-button">Clique aqui</button>
+
+    <script src="./script.js"></script>
 </body>
 
-<script src="./script.js"></script>
-<style>
-    body {
-        background-color: #fffffd;
-        font-family: Arial, sans-serif;
-    }
-
-    h1 {
-        color: #062af7;
-    }
-
-    .paragraph-js {
-        color: #1306ca;
-        font-size: 16px;
-    }
-
-    #main-input {
-        width: 300px;
-        padding: 10px;
-        margin-bottom: 10px;
-        background-color: #c6c7c7;
-    }
-
-    .main-button {
-        padding: 10px 20px;
-        background-color: #f5e506;
-        color: rgb(0, 0, 0);
-        border: none;
-        cursor: pointer;
-    }
-
-    .main-button:hover {
-        background-color: #b30000;
-
-    }
-
-    p {
-        visibility: visible;
-    }
-</style>
+</html>
