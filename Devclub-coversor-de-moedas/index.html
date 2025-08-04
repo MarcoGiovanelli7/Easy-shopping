@@ -11,7 +11,7 @@
    Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
    1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
-    <script src="./assets/script.js"></script>
+   
     <title>Convert Money</title>
 
 </head>
@@ -35,7 +35,8 @@
         
         <label>
             
-            Valor<input placeholder="10.000,00.">
+            Valor
+            <input class="input-currency" placeholder="10.000,00.">
          </label> 
             
        <button class="convert-button">Converter</button>
@@ -44,7 +45,7 @@
             <div class="currency-box">
                 <img src="./assets/Real.png" alt="logo-moeda-a-converter">
                 <p class="currency" >Real</p>
-                <p class="currency-value" >R$ 0,00.</p>
+                <p class="currency-value-to-convert" >R$ 0,00.</p>
             </div>
 
             <img  class="arrow-img" src="./assets/Vector.png" alt="seta-converter">
@@ -60,5 +61,5 @@
     </main>
 
 </body>
-
+ <script src="./assets/script.js"></script>
 </html>
