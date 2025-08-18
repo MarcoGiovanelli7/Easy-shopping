@@ -7,7 +7,7 @@
     outline: none;
 }
 body {
-    background-color: #fbfafc;
+    background-color: #ffffff;
 ;
 }
 .logo {
@@ -19,13 +19,13 @@ body {
 }
 main {
     width: 300px;
-    background: #e0a102;
+    background: #03c4ef;
     border-radius: 20px;
     margin: 0 auto;
     padding: 44px 24px;
 } 
 label {
-    color:rgb(10, 10, 222);
+    color:rgb(20, 4, 246);
     font-weight: 400;
     font-size: 14px;
     
@@ -40,20 +40,20 @@ select,input {
     padding: 12px;
     font-size: 16px;
     font-weight: 700;
-    color: #1803b6;
+    color: #060606;
 
 
 }
 button {
     width: 250px;
     height: 48px;
-    background: #0351f8;
+    background: #0527cf;
     border-radius: 5px;
     border: none;
     color: white;
     font-weight: 700;
     font-size: 20px;
-    color:#ffffff;
+    color:#f4e00a;
     cursor: pointer;
     margin: center;
 }
@@ -82,6 +82,7 @@ section {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    color: #000000;
 }
 .currency {
     font-weight: 600;
@@ -91,6 +92,6 @@ section {
 .currency-value, currency-value-to-convert{
     font-weight: 700px;
     font-size: 14px;
-    color: rgb(0, 0, 0);
+    color: rgb(14, 14, 14);
 }
     
