@@ -6,8 +6,10 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert")
     const currencyValueConverted = document.querySelector(".currency-value")
 
+    console.log(currencySelect.value)
     const dolarToday = 5.7
     const euroToday = 6.3
+    const libraToday = 7.2
 
     if (currencySelect.value === 'dolar') {
         currencyValueConverted.innerHTML = new Intl.NumberFormat('en-US', {
@@ -22,6 +24,9 @@ function convertValues() {
             currency: "EUR"
         }).format(inputCurrencyValue / euroToday)
     }
+    
+    
+    
 
     currencyValueToConvert.innerHTML = new Intl.NumberFormat('pt-BR', {
         style: "currency",
@@ -41,6 +46,10 @@ function changeCurrency() {
     if (currencySelect.value === "euro") {
         currencyName.innerHTML = "Euro"
         currencyImg.src = "./assets/Design sem nome 3.png"
+    }
+    if (currencySelect.value === "libra") {
+        currencyName.innerHTML = "libra esterlina"
+        currencyImg.src = "./assets/libra 1.png"
     }
 }
 
