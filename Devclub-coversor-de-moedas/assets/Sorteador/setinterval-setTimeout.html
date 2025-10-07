@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setinterval-setTimeout</title>
+</head>
+
+<body>
+    <h1>0</h1>
+    <button onclick="start()">start</button>
+    <button onclick="stop()">stop</button>
+
+
+</body>
+<script>
+    /*
+     setTimeout -> Executa uma vez
+     setInterval -> Executa várias vezes
+    clearInterval -> Parar o setInterval
+
+    */
+    let Number = 0
+    let cron
+    let h1 = document.querySelector("h1")
+
+    function start() {
+        cron = setInterval(function () {
+            Number++
+            h1.innerHTML = Number
+        }, 1000)
+
+    }
+
+
+
+    function stop() {
+        clearInterval(cron)
+
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+</html>
