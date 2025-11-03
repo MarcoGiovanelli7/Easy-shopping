@@ -1,5 +1,5 @@
 
 
-// Array.array.forEach(element => {
+Array.array.forEach(element => {
 
-// });
+});
