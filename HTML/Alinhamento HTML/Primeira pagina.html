@@ -54,7 +54,6 @@ HTML
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
     <title>Formatação de Texto</title>
 </head>
 
@@ -102,50 +101,46 @@ HTML
         <dd>Informação adicional fornecida a uma tag HTML</dd>
         <dt>Marco Giovanelli</dt>
         <dd>Aluno dedicado e focado no curso de HTML</dd>
-        <h2>Cursos de Programação</h2>
-        <ul>
-            <li>Frontend
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </li>
-            <li>Backend
-                <ul>
-                    <li>Python</li>
-                    <li>Node.js</li>
-                    <li>PHP</li>
-                </ul>
-            <li>Inteligência Artificial
-                <ul>
-                    <li>N8N</li>
-                </ul>
-            </li>
-            <li>Banco de Dados
-                <ul>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                </ul>
-            </li>
-            <li>Marco</li>
+    </dl>
+    <h2>Cursos de Programação</h2>
+    <ul>
+        <li>Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul>
+                <li>Python</li>
+                <li>Node.js</li>
+                <li>PHP</li>
+            </ul>
+        </li>
+        <li>Inteligência Artificial
+            <ul>
+                <li>N8N</li>
+            </ul>
+        </li>
+        <li>Banco de Dados
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </li>
+        <li>Marco
             <ul>
                 <li><mark>Achando Foda</mark></li>
             </ul>
-            <li>
-            <li>Marco
-                <ul>
-                    <li><b>cansado</b></li>
-
-                </ul>
-            </li>
-
-
-
-        </ul>
-
-    </dl>
+        </li>
+        <li>Marco
+            <ul>
+                <li><b>cansado</b></li>
+            </ul>
+        </li>
+    </ul>
     <h1>Listas Aninhadas</h1>
     <h2>Cursos de Programação</h2>
     <ul>
@@ -218,6 +213,51 @@ HTML
     <br>
     <a href="sobre.html">Sobre Nós</a>
     <a href="contato.html">Contato</a>
+    <h2>link para email</h2>
+    <a href="mailto:marckmirr@gmail.com">Envie um e-mail para nós</a>
+    <br>
+    <h2> Link para telefone</h2>
+    <a href="tel:+5511999999999">Ligue para nós</a>
+    <br>
+    <h2>Link para downloads</h2>
+    <a href="documento.pdf" download>Baixar PDF</a>
+    <br>
+    <h2>Atributos target</h2>
+    <!--abre a mesma aba (padrão)-->
+    <a href="https://www.google.com" target="_self">Mesma aba</a>
+    <br>
+    <!--abre nova aba-->
+    <a href="https://www.google.com" target="_blank" rel="noopener">Nova aba</a>
+    <br>
+    <!-- Abre na janela pai -->
+<a href="https://www.google.com" target="_parent">Janela pai</a>
+<br>
+<!-- Abre na janela principal -->
+<a href="https://www.google.com" target="_top">Janela principal</a>
+<br>
+<h2>Boa prática: Ao usar target="_blank" , adicione rel="noopener noreferrer" por segurança: </h2>
+<br>
+<a href="https://shopee.com.br" target="_blank" rel="noopener noreferrer">Shopee</a>
+<br>
+<h2>Âncoras (Links Internos na Mesma Página )</h2>
+<h3>Permitem navegar para seções específicas da página:</h3>
+<br>
+<!-- Link para a âncora -->
+<a href="#secao1">Ir para Seção 1</a>
+<br>
+<a href="#secao2">Ir para Seção 2</a>
+<br>
+<!-- Conteúdo -->
+<h2 id="secao1">Seção 1</h2>
+<p>Conteúdo da seção 1...</p>
+<br>
+<h2 id="secao2">Seção 2</h2>
+<p>Conteúdo da seção 2...</p>
+
+
+
+
+
 
 </body>
 
