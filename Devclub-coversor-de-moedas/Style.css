@@ -31,9 +31,9 @@ label {
     
 }
 select,input {
-   background: #f9f9f7;
-    border: 1px solid #000000;
-    border-radius: 4px;
+   background: #fefefe;
+    border: 3px solid #020501;
+    border-radius: 7px;
     height: 48px;
     width: 100%;
     margin-bottom: 24px;
@@ -47,13 +47,13 @@ select,input {
 button {
     width: 250px;
     height: 48px;
-    background: #0527cf;
+    background: #f1c204;
     border-radius: 5px;
     border: none;
     color: white;
     font-weight: 700;
     font-size: 20px;
-    color:#f4e00a;
+    color:#030303;
     cursor: pointer;
     margin: center;
 }
@@ -87,7 +87,7 @@ section {
 .currency {
     font-weight: 600;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .currency-value, currency-value-to-convert{
     font-weight: 700px;

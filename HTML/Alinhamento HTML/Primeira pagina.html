@@ -230,35 +230,309 @@ HTML
     <a href="https://www.google.com" target="_blank" rel="noopener">Nova aba</a>
     <br>
     <!-- Abre na janela pai -->
-<a href="https://www.google.com" target="_parent">Janela pai</a>
-<br>
-<!-- Abre na janela principal -->
-<a href="https://www.google.com" target="_top">Janela principal</a>
-<br>
-<h2>Boa prática: Ao usar target="_blank" , adicione rel="noopener noreferrer" por segurança: </h2>
-<br>
-<a href="https://shopee.com.br" target="_blank" rel="noopener noreferrer">Shopee</a>
-<br>
-<h2>Âncoras (Links Internos na Mesma Página )</h2>
-<h3>Permitem navegar para seções específicas da página:</h3>
-<br>
-<!-- Link para a âncora -->
-<a href="#secao1">Ir para Seção 1</a>
-<br>
-<a href="#secao2">Ir para Seção 2</a>
-<br>
-<!-- Conteúdo -->
-<h2 id="secao1">Seção 1</h2>
-<p>Conteúdo da seção 1...</p>
-<br>
-<h2 id="secao2">Seção 2</h2>
-<p>Conteúdo da seção 2...</p>
+    <a href="https://www.google.com" target="_parent">Janela pai</a>
+    <br>
+    <!-- Abre na janela principal -->
+    <a href="https://www.google.com" target="_top">Janela principal</a>
+    <br>
+    <h2>Boa prática: Ao usar target="_blank" , adicione rel="noopener noreferrer" por segurança: </h2>
+    <br>
+    <a href="https://shopee.com.br" target="_blank" rel="noopener noreferrer">Shopee</a>
+    <br>
+    <h2>Âncoras (Links Internos na Mesma Página )</h2>
+    <h3>Permitem navegar para seções específicas da página:</h3>
+    <br>
+    <!-- Link para a âncora -->
+    <a href="#secao1">Ir para Seção 1</a>
+    <br>
+    <a href="#secao2">Ir para Seção 2</a>
+    <br>
+    <!-- Conteúdo -->
+    <h2 id="secao1">Seção 1</h2>
+    <p>Conteúdo da seção 1...</p>
+    <br>
+    <h2 id="secao2">Seção 2</h2>
+    <p>Conteúdo da seção 2...</p>
+    <!-- Link pra voltar pro topo -->
+    <a href="#topo">Voltar para o topo</a>
+    <br>
+
+    <h2>Imagens</h2>
+    <!-- A tag img insere imagens na página -->
+    <h3>HTML</h3>
+    <br>
+    <img src="zen buzios.jpg" width="300" height="200" alt="Descrição da imagem">
+    <br>
+    <h2>Atributos essenciais:</h2>
+    <ul>
+        <li>src (source ): Caminho da imagem (obrigatório)</li>
+        <li>alt:alt (alternative text): Texto alternativo se a imagem não carregar (obrigatório para
+            acessibilidade)</li>
+    </ul>
+
+    <h2>Tipos de Caminhos imagem na mesma página</h2>
+    <h3>HTML</h3>
+    <img src="quadro dos sonhos.jpg" alt="O meu quadro dos sonhos" width="300" height="200">
+
+    <h2>Caminho Relativo (imagem em subpasta):</h2>
+    <h3>HTML</h3>
+    <img src="./zen buzios.jpg" alt="Minha foto" whidth="500" height="400">
+
+    <h2>Caminho Absoluto (imagem hospedada online):</h2>
+    <h3>HTML</h3>
+    <div class="Carros">
+        <img src="https://cdn.pixabay.com/photo/2023/06/16/00/09/car-model-8066718_1280.jpg" width="400" height="300"
+            alt="Foto Externa" title="Porshe Azul">
+        <img src="https://i.bstr.es/highmotor/2018/12/historia-porsche-911-7.jpg" width="500" height="300"
+            alt="Foto Externa" title="Porshe Amarelo">
+        <img src="https://www.esquirekorea.co.kr/resources_old/online/org_thumnail_image/eq/6ecadc21-6871-407c-813a-88363b0b3e0e.jpg"
+            width="647" height="326" alt="Foto Externa">
+        <img src="https://rare-gallery.com/uploads/posts/817926-TopCar-GTR-911-Stinger-Turbo-Porsche-White-Side.jpg"
+            width="500" height="300" alt="Foto Externa">
+        <img src="https://yt3.ggpht.com/ZZpfArGyFx06JXGuNL6csMm4415iv29Th9dfLm5_Ic54PoXEhrQHxhjC-HnpkUx0Wi_8Giz-Vw=s88-c-k-c0x00ffffff-no-rj"
+            width="150" height="130" alt="Foto Externa" title="Logo do Canal">
+    </div>
+    <p><strong>Nota:</strong> É melhor usar CSS para dimensionar imagens, mas os atributos HTML funcionam.</p>
+    <h2>Atributo Title</h2>
+    <p>Mostra um tooltip ao passar o mouse:</p>
+    <br>
+    <img src="quadro dos sonhos.jpg" alt="O meu quadro dos sonhos" title="não é mais essa imagem" width="300"
+        height="200">
+    <br>
+    <h2>Figure e figcaption</h2>
+    <br>
+    <figure>
+        <img src="./zen buzios.jpg" alt="Paraiso" width="400" height="300" title="Paraíso">
+        <figcaption><strong>Viagem de férias</strong> </figcaption>
+    </figure>
+    <br>
+    <h2>Vídeos</h2>
+    <br>
+
+    <br>
+    <h2>Atributos</h2>
+    <ul>
+        <li>controls: Exibe os controles de reprodução (play, pause, etc.)</li>
+        <li>autoplay: Inicia o vídeo automaticamente (nem todos os navegadores suportam)</li>
+        <li>Loop:Reproduz o vídeo em loop</li>
+        <li>muted: Inicia o vídeo sem som</li>
+        <li>poster: Imagem exibida antes do vídeo ser reproduzido</li>
+        </li>
+
+    </ul>
+    <br>
+    <h2>Vídeo do YouTube</h2>
+    <br>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/CaqjUXlujKI?si=WjmMCRg1fp2igUyj"
+        title="REAÇÕES DOS RIVAIS SECANDO O MENGÃO | FLAMENGO 2 X 0 CRUZEIRO | BRASILEIRÃO 2026 -VAMOS RIR KKKK"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <h2>Áudio</h2>
+    <br>
+    <audio controls>
+        <source src="./Desenvolvedor.m4a" type="audio/mpeg">
+        <source src="./freesound_community-orchestral_ogg.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <br>
+    <h2>Iframe (Incorporar Conteúdo Externo )</h2>
+    <br>
+    <!-- Google Maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen=""
+        loading="lazy">></iframe>
+    <!-- Página externa -->
+    <iframe src="https://kineticharbor.com/pt/articles/" width="800" height="600"></iframe>
+    <br>
+    <h2>8.Tabelas</h2>
+    <a>Tabelas organizam dados em linhas e colunas.</a>
+    <br>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>25</td>
+            <td>São Paulo</td>
+        </tr>
+        <br>
+        <h2>Elementos:</h2>
+        <br>
+        <!--• <table> : Define a tabela
+            • <tr> : Table Row (linha da tabela )
+            • <th> : Table Header (cabeçalho - negrito e centralizado)
+            • <td> : Table Data (célula de dados)-->
+        <br>
+        <h2>Tabela com Estrutura Semântica</h2>
+        <br>
+        <table border="5px">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>R$ 3.000,00</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>R$ 50,00</td>
+                    <td>20</td>
+                </tr>
+                <br>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total de Itens:</td>
+                    <td>30</td>
+                </tr>
+            </tfoot>
+            <br>
+            <h2>Outra Tabela</h2>
+            <br>
 
 
+            >
+        </table>
 
+        <tfoot>
+            <tr>
+                <td colspan="2">Valor Total dos produtos:</td>
+                <td>R$ 31.000,00</td>
+            </tr>
+        </tfoot>
 
+        <!--Elementos semânticos:
+
+            • <thead> : Cabeçalho da tabela
+            • <tbody> : Corpo da tabela
+            • <tfoot> : Rodapé da tabela-->
+        <br>
+
+        <h2>Mesclando Células</h2>
+        <br>
+        <h3>Colspan (mesclar colunas)</h3>
+        <br>
+        <table>
+            <tr>
+                <th colspan="3">Informações do Aluno</th>
+            </tr>
+            <tr>
+                <td>Nome</td>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>8.5</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Roberta</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Giovanna</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <br>
+        <h3>Rowspan (mesclar linhas)</h3>
+        <br>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+                <th>Atividade</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Segunda</td>
+                <td>08:00</td>
+                <td>Matemática</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>Português</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td> Ciências</td>
+            </tr>
+        </table>
+        <br>
+        <!--Atributos de mesclagem:
+
+            • colspan: Mescla colunas (ex: colspan="3" mescla 3 colunas)
+            • rowspan: Mescla linhas (ex: rowspan="2" mescla 2 linhas)-->
+        <br>
+        <h2>Caption (Legenda da Tabela)</h2>
+        <br>
+        <table>
+            <caption>Tabela de Vendas - Janeiro 2026</caption>
+            <tr>
+                <th>Vendedor</th>
+                <th>Vendas</th>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>R$ 10.000</td>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>R$ 50.000</td>
+            </tr>
+            <tr>
+                <td>Roberta</td>
+                <td>R$ 45.000</td>
+            </tr>
+        </table>
+        <tr>
+            <th>Total de vendas</th>
+            <th>R$ 105.000</th>
+        </tr>
+        <br>
+
+        
+<h2>9.Formulários</h2>
+<br>
+<a>Formulários permitem que usuários enviem informações. São essenciais para interação.</a>
+<br>
+<h3>Estrutura Básica</h3>
+<br>
+<form action="/processar" method="POST">
+<!-- Campos do formulário aqui -->
+</form>
+<br>
+Atributos principais:
+• action : URL para onde os dados serão enviados
+• method : Como os dados serão enviados (GET ou POST)
 
 
 </body>
+
+
+
+
 
 </html>
