@@ -3,7 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sorteador de Imagens</title>
+<title>Sorteador de Imagens</title>.titulo{
+    color: #FFD700;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(255,215,0,.7);
+}
 
 <style>
 *{
@@ -26,13 +33,14 @@ body{
 .janela{
     width:350px;
     height:350px;
-    background:#fff;
-    border-radius:15px;
+    background:#67eeee;
+    border-radius:15%;
     display:flex;
     justify-content:center;
     align-items:center;
     overflow:hidden;
     box-shadow:0 0 15px rgba(0,0,0,.4);
+    border: 10px solid #fb0505;
 }
 
 #imagemAtual{
@@ -45,19 +53,23 @@ button{
     padding:12px 30px;
     font-size:18px;
     cursor:pointer;
-    border:none;
-    border-radius:8px;
+    border:7px solid #fb0505;
+    border-radius:15px;
 }
 
 input{
     color:white;
 }
+
 </style>
 
 </head>
 <body>
+    
+<h1 >Sorteador Dinâmico</h1>
 
 <input type="file" id="upload" multiple accept="image/*">
+
 
 <div class="janela">
     <img id="imagemAtual" alt="Imagem sorteada">
